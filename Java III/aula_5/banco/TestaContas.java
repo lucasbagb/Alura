@@ -1,14 +1,14 @@
 package aula_5.banco;
 
-import aula_1.banco.conta.Conta;
-import aula_1.banco.conta.ContaCorrente;
+import aula_5.banco.conta.Conta;
+import aula_5.banco.conta.ContaCorrente;
 
 public class TestaContas {
 	public static void main(String[] args) {
 
-		Conta c = new ContaCorrente();
-		ContaCorrente cc = new ContaCorrente();
-
+		Conta c = new ContaCorrente(0, null);
+		ContaCorrente cc = new ContaCorrente(0, null);
+		
 		c.deposita(1000);
 		cc.deposita(1000);
 
